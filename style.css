@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    background-image: url("https://us.123rf.com/450wm/sn333g/sn333g1711/sn333g171100057/90930083-ilustraci%C3%B3n-de-vector-azul-de-an%C3%A1lisis-de-negocios.jpg?ver=6");
+}
+
+h1{
+    border: #0056b3;
+    color: white;   
+}
+
+p{
+    color: white;
+    text-align: left;
+}
+
+li{
+    color: white;
+    text-align: left;
+}
+.container {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.container1 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.container2 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+.container3 {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+}
+
+button {
+    background-color: #0074d9;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Distribucion Binomial</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+    <h1>Calculadora de Distribucion Binomial</h1>
+    <p>La distribución binomial es una distribución de probabilidad discreta que nos dice el porcentaje en que es 
+    probable obtener un resultado entre dos posibles al realizar un número n de pruebas.
+    En la distribución binomial hay tres variables: </p>
+    <li>"n" es el numero de veces que se repite el experiento.</li>
+    <li>"p" es uno de los resultados al que se llamará exito.</li>
+    <li>"q" es el otro resultado posible al que se llamará fracaso.</li>
+    <div class="container">
+        <label for="n">n (Numero de ensayos):</label>
+        <input type="number" id="n" min="0">
+        <br>
+        <label for="p">p (Probabilidad de exito):</label>
+        <input type="number" id="p" min="0" max="1" step="0.01">
+        <br>
+        <label for="x">x (Numero de exitos):</label>
+        <input type="number" id="x" min="0">
+        <br>
+        <button id="calculate">Calcular</button>
+        <p>Resultado: <span id="result"></span></p>
+    </div>
+
+    <h1>Calculadora de medidas de tendencia central</h1>
+    <p>son medidas estadísticas que pretenden resumir en un solo valor a un conjunto de valores. Representan 
+    un centro en torno al cual se encuentra ubicado el conjunto de los datos. Las medidas de tendencia central 
+    más utilizadas son: media, mediana y moda.</p>
+    <li>Media: Es la suma de todos los valores dividida para el numero de observaciones.</li>
+    <li>Mediana: Es el valor que divide en dos partes iguales a las observaciones; requiere de los datos esten 
+    ordenados de menor a mayor.</li>
+    <li>Moda: Es el valor o valores que má veces se repiten.</li>
+    <div class="container1">
+        <label for="data">Datos (separados por comas):</label>
+        <input type="text" id="data">
+        <br>
+        <button id="calculate1">Calcular</button>
+        <p>Media: <span id="mean"></span></p>
+        <p>Mediana: <span id="median"></span></p>
+        <p>Moda: <span id="mode"></span></p>
+    </div>
+
+    <h1>Calculadora de Distribución de Bernoulli</h1>
+    <p>La distribución de Bernoulli, también conocida como distribución dicotómica, es una distribución 
+    de probabilidad que representa una variable discreta la cual solo puede tener dos resultados: éxito o fracaso.
+    En la distribución de Bernoulli, éxito es el resultado que esperamos que ocurra y tiene el valor de 1, mientras
+    que el resultado de «fracaso» es un resultado distinto al esperado y su valor es 0. Así pues, si la probabilidad
+    del resultado de «éxito» es p, la probabilidad del resultado de fracaso es q=1-p.</p>
+    <div class="container2">
+        <label for="pe">Probabilidad de éxito (p):</label>
+        <input type="number" id="pe" min="0" max="1" step="0.01">
+        <br>
+        <label for="xs">Variable aleatoria (X):</label>
+        <input type="number" id="xs" min="0" max="1">
+        <br>
+        <button id="calculate2">Calcular</button>
+        <p>Resultado: <span id="result2"></span></p>
+    </div>
+
+    <h1>Calculadora de medidas de Variabilidad</h1>
+    <p>es una medida de la dispersión de los datos en una distribución, sea esta teórica o de una muestra; medidas de 
+    variabilidad son la varianza, la desviación estándar, cuartiles o deciles, y rango.</p>
+    <div class="container3">
+        <label for="dataa">Datos (separados por comas):</label>
+        <input type="text" id="dataa">
+        <br>
+        <button id="calculate3">Calcular</button>
+        <p>Varianza: <span id="variance"></span></p>
+        <p>Desviacion estandar: <span id="stdDeviation"></span></p>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
